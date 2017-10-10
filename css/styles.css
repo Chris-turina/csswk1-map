@@ -1,41 +1,69 @@
+@font-face {
+  font-family: 'FalturaAnimals';
+  src: url(../css/FalturaAnimals.ttf);
+}
+
 body {
   position: relative;
-  /*background-image: url(../img/leafs.jpg);*/
+  background-image: url(../img/bamboo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .map {
   position: absolute;
   text-align: center;
+  margin-left: 30px;
   /*border-image-width: 50px;*/
 }
+#map {
+  width: 130%;
+  /*-webkit-filter: drop-shadow(10px 10px 10px #222);*/
+   filter: drop-shadow(15px 15px 15px #222);
+}
 
-#heading {
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-image: url(../img/bamboo.jpg) 30 30 repeat;
-  border-style: solid;
-  border-width: 20px;
-  /*position: absolute;*/
-  /*top: 0;
-  left: 50%;*/
-  /*background-color: blue;
-  border: black;*/
+#title {
+/*background-color: black;*/
+  /*border-style: solid;
+  border-width: 10px;
+  border-color: black;*/
+  text-align: center;
+  font-family: 'FalturaAnimals';
+  font-size: 100px;
+  margin: -5px;
+  padding-top: 15px;
+  text-shadow:
+  -2px -2px 15px white,
+  2px -2px 15px white,
+  -2px 2px 15px white,
+  2px 2px 15px white;
+  color: black;
+  display: table-caption;
+  width: 30px;
+  position: absolute;
+  top: 5%;
+  z-index: 2;
+
+
 }
 
 .hide {
   display: none;
-  border-image: url(../img/bamboo.jpg) 30 30 repeat;
+  /*border-image: url(../img/bamboo.jpg) 30 30 repeat;
   border-style: solid;
   border-width: 20px;
   background-color: white;
   position: absolute;
-  top: -50%;
-  left: -50%;
+  top: 60px;*/
+  /*left: 50px;*/
 }
 
-.whale:hover img + .hide {
-  display: table-caption;
+#whale:hover {
+  width: 300px;
 }
+/*.whale:hover img + .hide {
+  display: table-caption;
+}*/
 
 .elephant:hover img + .hide {
   display: table-caption;
@@ -87,112 +115,123 @@ body {
 
 .whale {
   position: absolute;
-  top: 50%;
+  top: 70%;
   left: 10%;
 }
 
 #whale {
   width: 150px;
+  filter: drop-shadow(15px 15px 15px #000);
 }
 
 .elephant {
  position: absolute;
  top: 40%;
- left: 68%;
+ left: 88%;
 }
 
 #elephant {
   width: 90px;
+  filter: drop-shadow(15px 15px 15px #222);
 }
 
 .gorilla {
  position: absolute;
- top: 47%;
- left: 52%;
+ top: 42%;
+ left: 67%;
 }
 
 #gorilla {
-  width: 60px;
+  width: 80px;
+  filter: drop-shadow(15px 15px 15px #222);
 }
 
 .whaleshark {
  position: absolute;
  top: 60%;
- left: 70%;
+ left: 90%;
 }
 
 #whaleshark {
   width: 160px;
+  filter: drop-shadow(15px 15px 15px #000);
 }
 
 .crane {
  position: absolute;
  top: 15%;
- left: 20%;
+ left: 25%;
 }
 
 #crane {
-  width: 60px;
+  width: 70px;
+  filter: drop-shadow(15px 15px 15px #000);
 }
 
 .narwhal {
  position: absolute;
  top: 9%;
- left: 35%;
+ left: 45%;
 }
 
 #narwhal {
-  width: 140px;
+  width: 170px;
+  filter: drop-shadow(15px 15px 15px #000);
 }
 
 .lynx {
  position: absolute;
  top: 6%;
- left: 65%;
+ left: 75%;
 }
 
 #lynx {
-  width: 100px;
+  width: 150px;
+  filter: drop-shadow(15px 15px 15px #000);
 }
 
 .oncilla {
  position: absolute;
  top: 58%;
- left: 30%;
+ left: 37%;
 }
 
 #oncilla {
   width: 90px;
+  filter: drop-shadow(15px 15px 15px #000);
 }
 
 .panda {
  position: absolute;
- top: 26%;
- left: 74%;
+ top: 23%;
+ left: 95%;
 }
 
 #panda {
-  width: 90px;
+  width: 120px;
+  filter: drop-shadow(15px 15px 15px #222);
 }
 
 .tiger {
  position: absolute;
  top: 45%;
- left: 77%;
+ left: 98%;
 }
 
 #tiger {
   width: 90px;
+  filter: drop-shadow(15px 15px 15px #000);
 }
 
 .wombat {
  position: absolute;
  top: 65%;
- left: 80%;
+ left: 105%;
 }
 
 #wombat {
   width: 90px;
+  filter: drop-shadow(15px 15px 15px #222);
 }
 
 .penguin {
@@ -203,4 +242,19 @@ body {
 
 #penguin {
   width: 90px;
+  filter: drop-shadow(15px 15px 15px #000);
+}
+
+/*Template*/
+
+.animal-heading {
+position: absolute;
+top: 15%;
+left: 80%;
+}
+
+.animal-info {
+  position: absolute;
+  top: 15%;
+  left: 20%;
 }

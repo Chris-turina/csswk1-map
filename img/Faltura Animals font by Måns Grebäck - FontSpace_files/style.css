@@ -1,0 +1,289 @@
+/* ---- 728x090 Carousel ----*/
+
+* {margin:0; padding:0; border:0; outline:0; vertical-align:baseline; background:transparent; -webkit-touch-callout:none; -webkit-user-select:none; -webkit-text-size-adjust:none; }
+
+body { background-color: #fff; }
+
+#ad {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	width: 728px;
+	height: 90px;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-color: #FFF;
+
+	cursor: pointer;
+}
+
+#loading {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 728px;
+	height: 90px;
+	/*z-index: 1001;*/
+	opacity: 1;
+	background-image: url("sling_loader.gif");
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-color: #FFF;
+}
+
+#border {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 726px;
+	height: 88px;
+
+	pointer-events: none;
+	border: 1px solid #999;
+}
+
+@font-face {
+    font-family: 'BrandonBlack';
+    src: url('fonts/brandontext-black-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'BrandonRegular';
+    src: url('fonts/brandontext-regular-webfont.woff') format('woff');
+}
+
+
+/*--- CLASSES ---*/
+
+.txtHead {
+	text-transform: uppercase;
+	width: 300px;
+	text-align: center;
+	font-family: 'BrandonBlack', Arial, sans-serif;
+	letter-spacing: 2px;
+	line-height: 1.2em;
+	color: #14ABE0;
+}
+.testHead {
+	position: absolute;
+	display: inline-block;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'BrandonBlack', Arial, sans-serif;
+	letter-spacing: 1.5px;
+	color: #14ABE0;
+
+	opacity: 0;
+}
+
+.txtSub {
+	text-transform: uppercase;
+	width: 300px;
+	text-align: center;
+	font-family: 'BrandonRegular', Arial, sans-serif;
+	color: #363636;
+}
+.testSub {
+	position: absolute;
+	display: inline-block;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'BrandonRegular', Arial, sans-serif;
+	color: #363636;
+
+	opacity: 0;
+}
+
+#HTMLoverlay {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 728px;
+	height: 90px;
+}
+
+
+/*--- DOM elems ---*/
+
+#carouselContainer {
+	pointer-events: none;
+	/*overflow: hidden;*/
+	width: 728px;
+	height: 90px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	display: block;
+
+	/*background-color: rgba(123,232,23,0.2);*/
+}
+
+.imgDiv {
+	position: relative;
+	/*text-align: center;*/
+
+	background-color: #FFF;
+	border: 1px #EEE solid;
+}
+
+.imgDiv img {
+	/*position: absolute;*/
+	width: 100%;
+	/*bottom: 0;*/
+	opacity: 0.2;
+}
+
+#showTitleTxt {
+	/*position: absolute;*/
+	/*display: block;*/
+	/*width: 100%;*/
+	text-align: center;
+	font-family: 'BrandonRegular', Arial, sans-serif;
+	color: #363636;
+	font-size: 11px;
+	letter-spacing: 1px;
+	line-height: 12px;
+
+	/*background-color: rgba(123,232,23,0.2);*/
+
+}
+
+#showInfoFlexBox {
+
+	position: absolute;
+
+	display: flex;
+	display: -webkit-flex;
+	/*display: -ms-flexbox;*/
+
+	flex-direction: row;
+	-webkit-flex-direction: row;
+	/*-ms-flex-direction: row;*/
+
+	justify-content: center;
+	-webkit-justify-content: center;
+	/*-ms-flex-pack: justify;*/
+
+	align-items: center;
+	-webkit-align-items: center;
+	/*-ms-flex-align: center;*/
+}
+
+#carouselTxt {
+	position: absolute;
+	display: block;
+}
+
+#networkLogoContainer {
+	margin-right: 8px;
+	/*text-align: right;*/
+	/*position: absolute;*/
+	display: inline-block;
+	pointer-events: none;
+	/*background-color: rgba(256,256,23,0.3);*/
+}
+
+.logoImgDiv {
+	/*position: absolute;*/
+	/*background-color: rgba(113,23,23,0.5);*/
+}
+
+.logoImgDiv img {
+	width: 100%;
+}
+
+.logoTextDiv {
+	/*position: absolute;*/
+	text-align: center;
+	font-family: 'BrandonBlack', Arial, sans-serif;
+	font-size: 12px;
+	letter-spacing: 1px;
+	margin-top: 5px;
+	color: #363636;
+}
+
+#finalImgDiv {
+	position: absolute;
+	display: block;
+
+	/*background-color: rgba(123,232,23,0.4);*/
+}
+
+#finalImg {
+	width: 100%;
+}
+
+#finalTxt {
+	position: absolute;
+	display: block;
+}
+
+#priceTxt {
+	position: absolute;
+	display: block;
+
+	font-family: 'BrandonRegular', Arial, sans-serif;
+	font-size: 13px;
+	/*width: 100%;*/
+	text-align: center;
+	line-height: 13px;
+	letter-spacing: 2px;
+	color: #363636;
+
+	/*background-color: rgba(23,123,321,.3);*/
+}
+
+#ctaFlexBox {
+	position: absolute;
+
+	display: flex;
+	display: -webkit-flex;
+	/*display: -ms-flexbox;*/
+
+	flex-direction: row;
+	-webkit-flex-direction: row;
+	/*-ms-flex-direction: row;*/
+
+	justify-content: center;
+	-webkit-justify-content: center;
+	/*-ms-flex-pack: justify;*/
+
+	align-items: center;
+	-webkit-align-items: center;
+	/*-ms-flex-align: center;*/
+
+	background-color: #14ABE0;
+}
+
+#ctaTxt {
+	/*position: absolute;*/
+	display: inline-block;
+	text-transform: uppercase;
+	font-family: 'BrandonRegular', Arial, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 10px;
+	color: #FFF;
+}
+
+#caret {
+	width: 5px;
+	margin-left: 5px;
+}
+
+#legalTxt {
+	position: absolute;
+	display: block;
+	text-transform: uppercase;
+	font-family: Arial, sans-serif;
+	text-align: center;
+	font-size: 8px;
+	color: #999;
+}
+
+
+/*--------- END EDITABLES ---------*/

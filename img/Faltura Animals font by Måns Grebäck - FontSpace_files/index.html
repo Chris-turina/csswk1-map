@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)https://cdn.flashtalking.com/75749/1921893/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<style></style>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="ad.size" content="width=728,height=90">
+		<title>SlingTV 728x090 | Carousel</title>
+		<link rel="stylesheet" type="text/css" href="./css-reset.css">
+		<link rel="stylesheet" type="text/css" href="./style.css">
+
+		<script src="./TweenLite.min.js"></script>
+		<script src="./TimelineLite.min.js"></script>
+		<script src="./easepack.min.js"></script>
+		<script src="./cssplugin.min.js"></script>
+
+		<script src="./createjs-2015.11.26.min.js"></script>
+		<script src="./728x090.js"></script>
+
+		<script>
+		var canvas, stage, exportRoot;
+		function initLoad() {
+
+			canvas = document.getElementById("canvas");
+
+			if (lib.properties.manifest.length > 0){
+				images = images||{};
+				var loader = new createjs.LoadQueue(false);
+				loader.addEventListener("fileload", handleFileLoad);
+				loader.addEventListener("complete", handleComplete);
+				loader.loadManifest(lib.properties.manifest);
+			} else {
+				exportRoot = new lib._728x090();
+				initVars();
+			}
+		}
+
+		function handleFileLoad(evt) {
+			if (evt.item.type == "image") { images[evt.item.id] = evt.result; }
+		}
+
+		function handleComplete(evt) {
+			exportRoot = new lib._728x090();
+			initVars();
+		}
+
+		</script>
+
+
+	</head>
+
+	<body>
+
+		<div id="ad" style="cursor: pointer; background-image: url(&quot;about:blank&quot;);">
+
+			<canvas id="canvas" width="728" height="90" style="opacity: 1;"></canvas>
+
+			<div id="HTMLoverlay">
+
+				<div id="carouselContainer" style="opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);"><div class="imgDiv" style="position: absolute; left: 470.667px; top: 28.9px; width: 61.8667px; height: 46.4px;"><img src="./296953-1506707413.jpg"></div><div class="imgDiv" style="position: absolute; left: 471px; top: 29px; width: 61.8667px; height: 46.4px; z-index: 1003; transform: translate3d(0px, 0px, 0px) scale(1.00089, 1.00089);"><img src="./314762-1507217844.jpg" style="opacity: 0.348176;"></div><div class="imgDiv" style="position: absolute; left: 466px; top: 29px; width: 61.8667px; height: 46.4px; z-index: 1002; transform: translate3d(0px, 0px, 0px) scale(1.0231, 1.0231);"><img src="./148880-1506096000.jpg" style="opacity: 0.586429;"></div><div class="imgDiv" style="position: absolute; left: 448px; top: 29px; width: 61.8667px; height: 46.4px; z-index: 1001; transform: translate3d(0px, 0px, 0px) scale(1.01873, 1.01873);"><img src="./310180-1506095487.jpg" style="opacity: 0.573401;"></div><div class="imgDiv" style="position: absolute; left: 415px; top: 29px; width: 61.8667px; height: 46.4px; z-index: 1000; transform: translate3d(0px, 0px, 0px) scale(1.00316, 1.00316);"><img src="./114821-1506707315.jpg" style="opacity: 0.464749;"></div></div>
+
+				<div id="carouselTxt" class="txtHead" style="top: 21px; left: 39px; font-size: 17.9px; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">FALL TV IS BACK</div>
+				<div id="carouselTxtTest" class="testHead" style="font-size: 18px;"></div>
+
+				<div id="showInfoFlexBox" style="top: 47px; left: 57px; width: 263.9px;">
+					<div id="networkLogoContainer" style="top: 54px; left: 17px; height: 24.2802px;"><div class="logoImgDiv" style="display: none; opacity: 0;"><img src="./KNBCDT-1507221605.svg" class="svg-convert" style="width: 25.2919px; height: 24.2802px;"></div><div class="logoImgDiv" style="display: block; opacity: 0.127644;"><img src="./BET-1506736913.svg" class="svg-convert" style="width: 40.467px; height: 24.2802px;"></div><div class="logoImgDiv" style="display: block; opacity: 0.268819;"><img src="./KDFWDT-1504723582.svg" class="svg-convert" style="width: 37.4343px; height: 24.2802px;"></div><div class="logoImgDiv" style="display: block; opacity: 0.160166;"><img src="./BET-1506736913.svg" class="svg-convert" style="width: 40.467px; height: 24.2802px;"></div><div class="logoImgDiv" style="display: block; opacity: 0.0549332;"><img src="./EHD-1504620388.svg" class="svg-convert" style="width: 8.02089px; height: 24.2802px;"></div></div>
+					<div id="showTitleTxt" style="left: 0px; opacity: 0.127644;">BET HIP HOP AWARDS 2017</div>
+				</div>
+
+				<div id="finalImgDiv" style="top: 8px; left: 335px; width: 203.5px; opacity: 0; transform: matrix(0, 0, 0, 0, 0, 0);">
+					<img id="finalImg" src="./deviceFrame_quad.png">
+				</div>
+
+				<div id="finalTxt" class="txtHead" style="top: 11px; left: 35px; font-size: 17.9px; opacity: 0; transform: matrix(0, 0, 0, 0, 0, 0);">STREAM LIVE TV ON YOUR BIG SCREEN</div>
+				<div id="finalTxtTest" class="testHead" style="font-size: 18px;"></div>
+
+				<div id="priceTxt" style="top: 58px; left: 35px; width: 300px; opacity: 0; transform: matrix(0, 0, 0, 0, 0, 0);">STARTING AT <span style="font-size: 8px; vertical-align: super;">$</span>25<span style="font-size: 8px;">/mo</span></div>
+
+				<div id="ctaFlexBox" style="top: 48px; left: 550px; width: 169px; height: 23.3px; opacity: 0; transform: matrix(0, 0, 0, 0, 0, 0);">
+					<div id="ctaTxt" style="letter-spacing: 2.1px;">WATCH 7 DAYS FREE</div>
+					<img id="caret" src="./caret.png">
+				</div>
+
+				<div id="legalTxt" style="width: 169px; top: 77px; left: 550px; opacity: 0;">RESTRICTIONS APPLY</div>
+
+			</div>
+
+			<div id="loading" style="opacity: 0;"></div>
+			<div id="border"></div>
+
+		</div><!-- ad -->
+
+		<!-- HTML5 API 2.10 -->
+		<script src="./html5API.js"></script>
+
+		<!-- feed -->
+		<script src="./FTFeed.min.js"></script>
+		<script src="./processFeed.js"></script>
+
+		<script src="./anim.js"></script>
+
+		<script type="text/javascript">
+			//container = myFT.$("#ad");//JM
+			//myFT.applyClickTag(container, 1);
+		</script>
+
+		<!-- <script type="text/javascript">initLoad();</script> -->
+
+	
+</body></html>
