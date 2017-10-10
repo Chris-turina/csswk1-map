@@ -3,11 +3,17 @@
   src: url(../css/FalturaAnimals.ttf);
 }
 
+html {
+  margin: 0;
+  height: 100%;
+}
+
 body {
   position: relative;
   background-image: url(../img/bamboo.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100%;
 }
 
 .map {
@@ -22,15 +28,11 @@ body {
    filter: drop-shadow(15px 15px 15px #222);
 }
 
-#title {
-/*background-color: black;*/
-  /*border-style: solid;
-  border-width: 10px;
-  border-color: black;*/
+.title {
   text-align: center;
   font-family: 'FalturaAnimals';
   font-size: 100px;
-  margin: -5px;
+  margin: 5px;
   padding-top: 15px;
   text-shadow:
   -2px -2px 15px white,
@@ -61,56 +63,49 @@ body {
 #whale:hover {
   width: 300px;
 }
-/*.whale:hover img + .hide {
-  display: table-caption;
-}*/
 
-.elephant:hover img + .hide {
-  display: table-caption;
+#elephant:hover {
+  width: 200px;
 }
 
-.gorilla:hover img + .hide {
-  display: table-caption;
+#gorilla:hover {
+  width: 100px;
 }
 
-.whaleshark:hover img + .hide {
-  display: table-caption;
+#whaleshark:hover {
+  width: 300px;
 }
 
-.crane:hover img + .hide {
-  display: table-caption;
+#crane:hover {
+  width: 100px;
 }
 
-.narwhal:hover img + .hide {
-  display: table-caption;
+#narwhal:hover {
+  width: 200px;
 }
 
-.lynx:hover img + .hide {
-  display: table-caption;
+#lynx:hover {
+  width: 200px;
 }
 
-.oncilla:hover img + .hide {
-  display: table-caption;
+#oncilla:hover {
+  width: 150px;
 }
 
-.panda:hover img + .hide {
-  display: table-caption;
+#panda:hover {
+  width: 200px;
 }
 
-.tiger:hover img + .hide {
-  display: table-caption;
+#tiger:hover {
+  width: 200px;
 }
 
-.tiger:hover img + .hide {
-  display: table-caption;
+#wombat:hover {
+  width: 150px;
 }
 
-.wombat:hover img + .hide {
-  display: table-caption;
-}
-
-.penguin:hover img + .hide {
-  display: table-caption;
+#penguin:hover {
+  width: 200px;
 }
 
 .whale {
@@ -149,12 +144,13 @@ body {
 .whaleshark {
  position: absolute;
  top: 60%;
- left: 90%;
+ left: 80%;
 }
 
 #whaleshark {
   width: 160px;
   filter: drop-shadow(15px 15px 15px #000);
+
 }
 
 .crane {
@@ -192,7 +188,7 @@ body {
 
 .oncilla {
  position: absolute;
- top: 58%;
+ top: 53%;
  left: 37%;
 }
 
@@ -204,7 +200,7 @@ body {
 .panda {
  position: absolute;
  top: 23%;
- left: 95%;
+ left: 91%;
 }
 
 #panda {
@@ -226,7 +222,7 @@ body {
 .wombat {
  position: absolute;
  top: 65%;
- left: 105%;
+ left: 102%;
 }
 
 #wombat {
@@ -248,13 +244,54 @@ body {
 /*Template*/
 
 .animal-heading {
-position: absolute;
-top: 15%;
-left: 80%;
+  font-family: 'FalturaAnimals';
+  font-size: 100px;
+  margin: 0;
+  text-shadow:
+  -2px -2px 15px white,
+  2px -2px 15px white,
+  -2px 2px 15px white,
+  2px 2px 15px white;
+  position: absolute;
+  top: 15%;
+  left: 80%;
 }
 
 .animal-info {
+  font-family: 'FalturaAnimals';
+  font-size: 70px;
+  letter-spacing: 5px;
+  margin: 0;
+  text-shadow:
+  -2px -2px 15px white,
+  2px -2px 15px white,
+  -2px 2px 15px white,
+  2px 2px 15px white;
   position: absolute;
-  top: 15%;
-  left: 20%;
+  top: 50%;
+  left: 80%;
+}
+
+/*Blue Whale*/
+#blue-whale {
+  width: 100%;
+}
+
+#blue-whale-heading {
+  font-family: 'FalturaAnimals';
+  font-size: 150px;
+  margin: 0;
+  text-shadow:
+  -2px -2px 15px white,
+  2px -2px 15px white,
+  -2px 2px 15px white,
+  2px 2px 15px white;
+  position: absolute;
+  top: 40%;
+  left: 80%;
+  display: block;
+}
+
+#blue-whale-title {
+  margin-top: -30px;
 }
