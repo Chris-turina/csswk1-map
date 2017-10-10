@@ -292,6 +292,174 @@ body {
   display: block;
 }
 
-#blue-whale-title {
+.title2 {
   margin-top: -30px;
+}
+
+#ocilla-heading {
+  font-family: 'FalturaAnimals';
+  font-size: 150px;
+  margin: 0;
+  text-shadow:
+  -2px -2px 15px white,
+  2px -2px 15px white,
+  -2px 2px 15px white,
+  2px 2px 15px white;
+  position: absolute;
+  top: 40%;
+  left: 80%;
+  display: block;
+}
+
+#crane-heading {
+  font-family: 'FalturaAnimals';
+  font-size: 150px;
+  margin: 0;
+  text-shadow:
+  -2px -2px 15px white,
+  2px -2px 15px white,
+  -2px 2px 15px white,
+  2px 2px 15px white;
+  position: absolute;
+  top: 30%;
+  left: 60%;
+  display: block;
+}
+
+#penguin-heading {
+  font-family: 'FalturaAnimals';
+  font-size: 150px;
+  margin: 0;
+  text-shadow:
+  -2px -2px 15px white,
+  2px -2px 15px white,
+  -2px 2px 15px white,
+  2px 2px 15px white;
+  position: absolute;
+  top: 40%;
+  left: 80%;
+  display: block;
+}
+
+#narwhal-heading {
+  font-family: 'FalturaAnimals';
+  font-size: 150px;
+  margin: 0;
+  text-shadow:
+  -2px -2px 15px white,
+  2px -2px 15px white,
+  -2px 2px 15px white,
+  2px 2px 15px white;
+  position: absolute;
+  top: 30%;
+  left: 70%;
+  display: block;
+}
+
+#narwhal-page {
+  width: 100%;
+}
+
+#gorilla-heading {
+  font-family: 'FalturaAnimals';
+  font-size: 150px;
+  margin: 0;
+  text-shadow:
+  -2px -2px 15px white,
+  2px -2px 15px white,
+  -2px 2px 15px white,
+  2px 2px 15px white;
+  position: absolute;
+  top: 60%;
+  left: 70%;
+  display: block;
+}
+
+#lynx-heading {
+  font-family: 'FalturaAnimals';
+  font-size: 150px;
+  margin: 0;
+  text-shadow:
+  -2px -2px 15px white,
+  2px -2px 15px white,
+  -2px 2px 15px white,
+  2px 2px 15px white;
+  position: absolute;
+  top: 60%;
+  left: 70%;
+  display: block;
+}
+#panda-heading {
+  font-family: 'FalturaAnimals';
+  font-size: 150px;
+  margin: 0;
+  text-shadow:
+  -2px -2px 15px white,
+  2px -2px 15px white,
+  -2px 2px 15px white,
+  2px 2px 15px white;
+  position: absolute;
+  top: 60%;
+  left: 70%;
+  display: block;
+}
+
+#wombat-heading {
+  font-family: 'FalturaAnimals';
+  font-size: 150px;
+  margin: 0;
+  text-shadow:
+  -2px -2px 15px white,
+  2px -2px 15px white,
+  -2px 2px 15px white,
+  2px 2px 15px white;
+  position: absolute;
+  top: 60%;
+  left: 70%;
+  display: block;
+}
+
+#elephant-heading {
+  font-family: 'FalturaAnimals';
+  font-size: 150px;
+  margin: 0;
+  text-shadow:
+  -2px -2px 15px white,
+  2px -2px 15px white,
+  -2px 2px 15px white,
+  2px 2px 15px white;
+  position: absolute;
+  top: 60%;
+  left: 70%;
+  display: block;
+}
+
+#tiger-heading {
+  font-family: 'FalturaAnimals';
+  font-size: 150px;
+  margin: 0;
+  text-shadow:
+  -2px -2px 15px white,
+  2px -2px 15px white,
+  -2px 2px 15px white,
+  2px 2px 15px white;
+  position: absolute;
+  top: 60%;
+  left: 70%;
+  display: block;
+}
+
+#whaleshark-heading {
+  font-family: 'FalturaAnimals';
+  font-size: 150px;
+  margin: 0;
+  text-shadow:
+  -2px -2px 15px white,
+  2px -2px 15px white,
+  -2px 2px 15px white,
+  2px 2px 15px white;
+  position: absolute;
+  top: 60%;
+  left: 70%;
+  display: block;
 }
