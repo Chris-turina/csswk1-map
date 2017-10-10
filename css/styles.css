@@ -1,0 +1,134 @@
+body {
+  position: relative;
+}
+
+.map {
+  position: absolute;
+  text-align: center;
+}
+
+#heading {
+  position: absolute;
+  top: 0;
+  left: 50%;
+}
+
+.whale {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+}
+
+#whale {
+  width: 150px;
+}
+
+.elephant {
+ position: absolute;
+ top: 40%;
+ left: 68%;
+}
+
+#elephant {
+  width: 90px;
+}
+
+.gorilla {
+ position: absolute;
+ top: 47%;
+ left: 52%;
+}
+
+#gorilla {
+  width: 60px;
+}
+
+.whaleshark {
+ position: absolute;
+ top: 60%;
+ left: 70%;
+}
+
+#whaleshark {
+  width: 160px;
+}
+
+.crane {
+ position: absolute;
+ top: 15%;
+ left: 20%;
+}
+
+#crane {
+  width: 60px;
+}
+
+.narwhal {
+ position: absolute;
+ top: 9%;
+ left: 35%;
+}
+
+#narwhal {
+  width: 140px;
+}
+
+.lynx {
+ position: absolute;
+ top: 6%;
+ left: 65%;
+}
+
+#lynx {
+  width: 100px;
+}
+
+.oncilla {
+ position: absolute;
+ top: 58%;
+ left: 30%;
+}
+
+#oncilla {
+  width: 90px;
+}
+
+.panda {
+ position: absolute;
+ top: 26%;
+ left: 74%;
+}
+
+#panda {
+  width: 90px;
+}
+
+.tiger {
+ position: absolute;
+ top: 45%;
+ left: 77%;
+}
+
+#tiger {
+  width: 90px;
+}
+
+.wombat {
+ position: absolute;
+ top: 65%;
+ left: 80%;
+}
+
+#wombat {
+  width: 90px;
+}
+
+.penguin {
+ position: absolute;
+ top: 89%;
+ left: 50%;
+}
+
+#penguin {
+  width: 90px;
+}
